@@ -33,18 +33,18 @@ body{
     width: 450px;
     padding-bottom: 0px;
     padding: 10px;
+    text-shadow: 1px 2px 0px black;
 }
 
 h1{
-    font-family: passion-one;
+    font-family: 'passion-one';
     font-size: 130px;
     padding-top: 60px;
 }
 header > p{
-    font-family:sans-serif;
+    font-family:Verdana;
     font-size: 18px;
     padding-bottom: 50px;
-    font-weight: 1px;
 }
 a{
     text-decoration:none;
@@ -73,6 +73,6 @@ footer{
     background-color:black;
     color:white ;
     text-align: center;
-    font-family: sans-serif;
+    font-family:Verdana;
     padding: 10px;
 }

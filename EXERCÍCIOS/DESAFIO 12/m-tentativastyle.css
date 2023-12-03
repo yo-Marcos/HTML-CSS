@@ -14,6 +14,27 @@
     padding: 0px;
 }
 
+body{
+    background-color: gray;
+}
+
+.sobreposto{
+    background-color: white;
+    margin:0px;
+    padding:30px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+}
+.abaixo{
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    font-size: 35px;
+    margin: 30px 30px 30px 20px;
+    width: 450px;
+    padding-bottom: 0px;
+    padding: 10px;
+}
+
 h1{
     font-family: passion-one;
     font-size: 130px;
@@ -40,16 +61,11 @@ header{
     text-align: center;
 }
 
-article > p {
+div > p {
     font-family:'sriracha';
-    font-size: 50px;
 }
 
-main{
-    padding: 30px;
-}
-
-article>p{
+div>p{
     margin-bottom:60px;
 }
 

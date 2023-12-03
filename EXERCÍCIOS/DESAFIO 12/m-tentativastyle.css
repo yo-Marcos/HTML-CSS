@@ -4,3 +4,40 @@
     font-family:'passion-one';
     src: url('font/Passion_One/PassionOne-Bold.ttf') format('truetype');
 }
+@font-face {
+    font-family:'sriracha';
+    src: url('font/Sriracha/Sriracha-Regular.ttf') format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-family: passion-one;
+    font-size: 130px;
+}
+header > p{
+    font-family:sans-serif;
+    font-size: 18px;
+}
+header > p > a{
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+}
+header> p > a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+article > p {
+    font-family:'sriracha';
+    font-size: 50px;
+}

@@ -23,7 +23,7 @@ body{
     background-color: white;
     margin:0px;
     padding:30px;
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.788);
     font-size: 50px;
 }
 .abaixo{
@@ -47,12 +47,14 @@ div.abaixo>p{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
+    background-size: cover;
 }
 .imagem2{
     background-image: url('imagens/background002.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
+    background-size: cover;
 }
 
 h1{

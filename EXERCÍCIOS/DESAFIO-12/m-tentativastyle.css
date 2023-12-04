@@ -36,9 +36,10 @@ body{
 
 div.abaixo>p{
     background-color: rgba(0, 0, 0, 0.5);
-    width: 450px;
-    margin: 10vh;
+    display: inline-block;
+    margin: 50px ;
     padding: 10px;
+    font-size: 4vw;
 }
 
 .imagem1{
@@ -56,7 +57,7 @@ div.abaixo>p{
 
 h1{
     font-family: 'passion-one';
-    font-size: 130px;
+    font-size: 10vw;
     padding-top: 60px;
     font-variant: small-caps;
 }
@@ -83,7 +84,7 @@ header{
 div > p {
     font-family:'sriracha';
     margin-bottom:60px;
-    max-width: 100vh;
+    font-size: 5vw;
 }
 
 footer{

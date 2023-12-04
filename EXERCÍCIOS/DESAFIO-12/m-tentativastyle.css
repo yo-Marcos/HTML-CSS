@@ -16,6 +16,7 @@
 
 body{
     background-color: gray;
+    min-height: 100vh;
 }
 
 .sobreposto{
@@ -26,20 +27,38 @@ body{
     font-size: 50px;
 }
 .abaixo{
-    background-color: rgba(0, 0, 0, 0.5);
     color:white;
     font-size: 35px;
-    margin: 30px 30px 30px 20px;
-    width: 450px;
     padding-bottom: 0px;
     padding: 10px;
     text-shadow: 1px 2px 0px black;
+}
+
+div.abaixo>p{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 450px;
+    margin: 10vh;
+    padding: 10px;
+}
+
+.imagem1{
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.imagem2{
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 h1{
     font-family: 'passion-one';
     font-size: 130px;
     padding-top: 60px;
+    font-variant: small-caps;
 }
 header > p{
     font-family:Verdana;
@@ -49,7 +68,7 @@ header > p{
 a{
     text-decoration:none;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }
 a:hover{
     text-decoration: underline;
@@ -63,10 +82,8 @@ header{
 
 div > p {
     font-family:'sriracha';
-}
-
-div>p{
     margin-bottom:60px;
+    max-width: 100vh;
 }
 
 footer{

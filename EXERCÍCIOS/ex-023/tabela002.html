@@ -16,17 +16,21 @@
             padding: 5px;
         }
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(70, 70, 70);
             color: white;
         }
         .num{
             text-align: right;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: rgb(189, 189, 189);
         }
     </style>
 </head>
 <body>
     <h1>Trabalhando com tabelas grandes</h1>
     <table>
+        <caption>POPULAÇÃO DE ESTADOS</caption>
         <thead>
             <tr>
                 <th>Estado</th>
